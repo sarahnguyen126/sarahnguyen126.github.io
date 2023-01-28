@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        img {
+            width:100%;
+        }
+        a {
+            text-decoration: none;
+        }
+        header {
+            background-image: url('images/bg-image.jpg') ;
+            background-size: cover;
+            height: 100vh;
+            background-position: 100% 50%;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+        }
+        nav ul {
+            display: flex;
+            background: rgba(255, 255, 255, 0.6);
+            list-style: none;
+            padding: 0;
+            margin: 0;
+
+        }
+        nav li {
+            flex: 1;
+            text-align: center;
+            padding:10px;
+            transition: 1s;
+        }
+        nav li:hover {
+            background: rgba(101, 222, 255, 0.6);
+        }
+        li a{
+            font-size: 40px;
+            color: white
+        }
+        main {
+            padding: 80px 0;
+            background:rgba(101, 222, 255, 0.6);
+            height: 800px;
+        }
+        nav a:hover {
+            color:rgba(255, 117, 25, 0.6)
+        }
+        .flex {
+            padding: 60px;
+            display: flex;
+            width: 70%;
+            margin: auto;
+            background: white;
+        }
+        .flex div {
+            flex: 1;
+        }
+        footer {
+            position: fixed;
+            bottom:0;
+            left:0;
+            right:0;
+            background: rgb(253, 246, 117);
+            color: rgb(255, 66, 66);
+            padding: 60px 100px 40px 100px;
+        }
+        .left {
+            display: flex;
+        }
+        .left article {
+            flex: 1;
+        }
+        .right {
+            padding-left: 60px;
+        }
+        .feature-img {
+            padding: 10px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+                <li><a href="#">link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="flex">
+            <div class="left">
+                <article>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut dolor vitae explicabo quod, cupiditate fuga pariatur aperiam necessitatibus corporis deleniti!</p>
+                </article>
+                <article>
+                    <img class="feature-img" src="http://placekitten.com/400/500"/>
+                </article>
+            </div>
+            <div class="right">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut dolor vitae explicabo quod, cupiditate fuga pariatur aperiam necessitatibus corporis deleniti!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Sarah Nguyen 2023</p>
+    </footer>
+</body>
+</html>
