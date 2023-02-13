@@ -1,0 +1,94 @@
+@keyframes shrink {
+  from {
+    height: 1.7rem;
+  }
+  to {
+    height: 1.1rem;
+  }
+}
+
+@keyframes expand {
+  from {
+    height: 1.1rem;
+  }
+  to {
+    height: 1.7rem;
+  }
+}
+
+@keyframes white-to-black {
+  from {
+    color: #f9f9f9;
+  }
+  to {
+    color: black;
+  }
+}
+
+@keyframes black-to-white {
+  from {
+    color: black;
+  }
+  to {
+    color: #f9f9f9;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 260px;
+  height: 70px;
+
+  position: absolute;
+  right: 100px;
+  top: 200px;
+
+  border-radius: 18px;
+  background: rgba(33, 27, 27, 0.4);
+}
+
+.my-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+button {
+  flex: 1;
+}
+
+.home-button {
+  background-image: url("images/home.svg");
+  width: 40px;
+  height: 37.21px;
+}
+
+.home-button:focus {
+  background-image: url("images/home-button.svg");
+}
+
+.square:nth-child(1) {
+  display: inline-block;
+  margin-left: 20px;
+}
+.square {
+  background-color: #f9f9f9;
+  height: 1.1rem;
+  width: 0.5rem;
+  margin: 1rem;
+  border-color: none;
+  animation: shrink ease-out 0.7s;
+}
+
+.square:focus {
+  background-color: rgb(0, 0, 0);
+  height: 1.7rem;
+  animation: expand ease-out 0.7s;
+}
+
+button {
+  all: unset;
+}
