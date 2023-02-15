@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 260px;
+  min-width: 260px;
   height: 70px;
 
   position: absolute;
@@ -46,7 +46,7 @@
   top: 200px;
 
   border-radius: 18px;
-  background: rgba(33, 27, 27, 0.4);
+  background: rgba(33, 27, 27, 0.55);
 }
 
 .my-buttons {
@@ -64,6 +64,7 @@ button {
   background-image: url("images/home.svg");
   width: 40px;
   height: 37.21px;
+  margin: 0 12px 0 10px;
 }
 
 .home-button:focus {

@@ -1,5 +1,21 @@
 h1 {
-    color:lightgreen;
-    font-size: 60px;
-    font-family: 'Courier New', Courier, monospace;
+  margin-left: 100px;
+  color: lightgreen;
+  font-size: 60px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.date {
+  font-weight: bolder;
+}
+
+p {
+  margin-left: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 600px;
+  line-height: 1.5;
+}
+
+img {
+  margin-left: 100px;
 }
