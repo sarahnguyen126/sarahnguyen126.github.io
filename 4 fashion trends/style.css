@@ -3,8 +3,8 @@ html {
   background-size: cover;
 }
 
-svg {
-  overflow: visible;
+a {
+  text-decoration: none;
 }
 
 /* START OF NAV */
@@ -35,8 +35,8 @@ svg {
   height: 65px;
 
   position: fixed;
-  right: 50px;
-  top: 580px;
+  right: 60px;
+  top: 590px;
   z-index: 3;
 
   border-radius: 16px;
@@ -89,7 +89,7 @@ button {
 /* END OF NAV */
 
 .homepage-title {
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -117,27 +117,48 @@ button {
 
 .parent {
   width: 100%;
-  margin-top: 100px;
+  margin-top: 80px;
   margin-bottom: 100px;
+  margin-left: 10px;
   display: flex;
   flex-direction: row;
 
-  padding-bottom: 380px;
+  padding-bottom: 360px;
 }
 
 .child {
   height: 120px;
   flex: 10%;
   justify-content: center;
+
+  transition: transform 0.1s ease-out;
 }
+
+.child:hover {
+  transform: scale(1.07);
+}
+
 #second-child {
-  width: 290px;
+  width: 300px;
   height: auto;
+  position: relative;
+  bottom: 150px;
+  left: 20px;
+}
+
+#third-child {
+  width: 340px;
+  height: auto;
+  position: relative;
+  top: 60px;
+  right: 10px;
 }
 
 #fourth-child {
-  width: 310px;
+  width: 290px;
   height: auto;
+  position: relative;
+  bottom: 80px;
 }
 
 img {
@@ -158,6 +179,38 @@ img {
   padding-left: 850px;
   width: 580px;
   height: auto;
+}
+
+#homepage-oversizing {
+  position: absolute;
+  top: 424px;
+  left: 173px;
+}
+
+#homepage-y2k {
+  position: absolute;
+  top: 712px;
+  left: 400px;
+}
+
+#homepage-sheer {
+  position: absolute;
+  top: 424px;
+  left: 900px;
+}
+
+#homepage-cut-out {
+  position: absolute;
+  top: 798px;
+  left: 1160px;
+}
+
+h2 {
+  font-family: "reenie-beanie", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  color: #403b33;
 }
 
 h3 {
