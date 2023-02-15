@@ -7,6 +7,87 @@ svg {
   overflow: visible;
 }
 
+/* START OF NAV */
+
+@keyframes shrink {
+  from {
+    height: 1.7rem;
+  }
+  to {
+    height: 1.1rem;
+  }
+}
+
+@keyframes expand {
+  from {
+    height: 1.1rem;
+  }
+  to {
+    height: 1.7rem;
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 260px;
+  height: 65px;
+
+  position: fixed;
+  right: 50px;
+  top: 580px;
+  z-index: 3;
+
+  border-radius: 16px;
+  background: rgba(33, 27, 27, 0.85);
+}
+
+.my-buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.home-button {
+  background-image: url("images/homepage/home-button-outlined.svg");
+  width: 34px;
+  height: 32px;
+  margin: 0 12px 0 10px;
+}
+
+.home-button:focus {
+  background-image: url("images/homepage/home-button-filled.svg");
+}
+
+.square {
+  background: rgba(33, 27, 27, 0);
+  height: 1.1rem;
+  width: 0.3rem;
+  margin: 1rem;
+  border-style: solid;
+  border-color: #f9f9f9;
+  border-width: 1.2px;
+
+  animation: shrink ease-out 0.7s;
+}
+
+.square:focus {
+  background-color: #f9f9f9;
+  border-style: solid;
+  border-color: #f9f9f9;
+  border-width: 1.2px;
+  height: 1.7rem;
+  animation: expand ease-out 0.7s;
+}
+
+button {
+  all: unset;
+}
+
+/* END OF NAV */
+
 .homepage-title {
   margin-top: 50px;
   margin-left: auto;
@@ -35,14 +116,28 @@ svg {
 }
 
 .parent {
+  width: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
   display: flex;
   flex-direction: row;
+
+  padding-bottom: 380px;
 }
+
 .child {
   height: 120px;
   flex: 10%;
+  justify-content: center;
+}
+#second-child {
+  width: 290px;
+  height: auto;
+}
+
+#fourth-child {
+  width: 310px;
+  height: auto;
 }
 
 img {
@@ -314,26 +409,27 @@ h5 {
   left: 655px;
 }
 
-#sheer-sn-01 {
-  width: 270px;
-  position: absolute;
-  top: 137px;
-  left: 798px;
-
-  opacity: 0;
-  transition: opacity 0.3s ease-in;
-}
-
 #sheer-collage-01 {
   width: 260px;
   height: auto;
   position: absolute;
   top: 70px;
   left: 1080px;
+  z-index: 2;
+}
+
+#sheer-sn-01 {
+  width: 200px;
+  position: absolute;
+  top: 120px;
+  left: 1120px;
+  z-index: 1;
+
+  transition: translate 0.4s ease-in;
 }
 
 #sheer-collage-01:hover + #sheer-sn-01 {
-  opacity: 1;
+  translate: -250px;
 }
 
 #sheer-main-text {
