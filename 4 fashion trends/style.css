@@ -11,19 +11,19 @@ a {
 
 @keyframes shrink {
   from {
-    height: 1.7rem;
+    height: 1.6rem;
   }
   to {
-    height: 1.1rem;
+    height: 0.9rem;
   }
 }
 
 @keyframes expand {
   from {
-    height: 1.1rem;
+    height: 0.9rem;
   }
   to {
-    height: 1.7rem;
+    height: 1.6rem;
   }
 }
 
@@ -63,7 +63,7 @@ a {
 
 .square {
   background: rgba(33, 27, 27, 0);
-  height: 1.1rem;
+  height: 0.9rem;
   width: 0.3rem;
   margin: 1rem;
   border-style: solid;
@@ -78,7 +78,7 @@ a {
   border-style: solid;
   border-color: #f9f9f9;
   border-width: 1.2px;
-  height: 1.7rem;
+  height: 1.6rem;
   animation: expand ease-out 0.7s;
 }
 
