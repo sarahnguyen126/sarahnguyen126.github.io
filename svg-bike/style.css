@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+#right-wheel,
+#left-wheel {
+  animation: wheel 1.5s linear infinite;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes wheel {
+  from {
+    transform: rotateZ(0deg "angle");
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+#woman-bike {
+  animation: bike 1s ease-in-out infinite alternate;
+  transform-origin: bottom;
+}
+
+@keyframes bike {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(20deg);
+  }
+}
+
+#hair {
+  animation: hair 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes hair {
+  from {
+    transform: translateY(0%) rotateZ(0deg);
+  }
+  to {
+    transform: translateY(25%) rotateZ(10deg);
+  }
+}
