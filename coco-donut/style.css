@@ -3,6 +3,47 @@
   margin: 0px;
 }
 
+h1 {
+  font-family: "Noto Serif Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 78px;
+  line-height: 119%;
+
+  border-bottom: 3px solid #f6adcd;
+  padding-bottom: 1.3rem;
+  margin-bottom: 1.8rem;
+}
+
+h2 {
+  font-family: 'Noto Serif Display';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 52px;
+text-align: center;
+letter-spacing: 0.015em;
+
+border-top: 1px solid #f6adcd;
+padding-top: 110px;
+}
+
+h3 {
+  font-family: "Noto Serif Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 160%;
+}
+
+h5 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding-bottom: 3rem;
+}
+
 nav {
   white-space: nowrap;
   background: white;
@@ -49,18 +90,31 @@ nav ul li a:hover {
 }
 
 #home {
-    border-top: 1px solid #f6adcd;
+  border-top: 1px solid #f6adcd;
 }
 
 .nav-border-right {
-    position: relative;
-    left: 206px;
-    position: fixed;
-    z-index: 1;
+  position: relative;
+  left: 206px;
+  position: fixed;
+  z-index: 1;
 }
 
 main {
-    margin-left: 18%;
-    padding-top: 50px;
+  margin-left: 19%;
+  padding-top: 50px;
 }
 
+section {
+  padding-bottom: 130px;
+}
+
+.container {
+  margin-top: 90px;
+  display: flex;
+}
+
+#homepage-img {
+  margin-top: -40px;
+  margin-left: 60px;
+}
