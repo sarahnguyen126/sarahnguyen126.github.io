@@ -16,16 +16,17 @@ h1 {
 }
 
 h2 {
-  font-family: 'Noto Serif Display';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 52px;
-text-align: center;
-letter-spacing: 0.015em;
+  font-family: "Noto Serif Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: 0.015em;
 
-border-top: 1px solid #f6adcd;
-padding-top: 110px;
+  border-top: 1px solid #f6adcd;
+  padding-top: 90px;
+  padding-bottom: 14px;
 }
 
 h3 {
@@ -102,19 +103,263 @@ nav ul li a:hover {
 
 main {
   margin-left: 19%;
-  padding-top: 50px;
 }
 
 section {
-  padding-bottom: 130px;
+  padding-bottom: 94px;
 }
 
 .container {
-  margin-top: 90px;
+  padding-top: 140px;
   display: flex;
 }
 
 #homepage-img {
   margin-top: -40px;
   margin-left: 60px;
+}
+
+/* START OF DONUT PAGE */
+
+.flex-donuts {
+  display: flex;
+  justify-content: space-evenly;
+  width: 97%;
+}
+
+.mini-nav {
+  width: 40px;
+  height: 168px;
+  margin: 212px 0px 0px -16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+svg.shopping-cart {
+  margin-bottom: 6px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #000;
+}
+
+p.page {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+
+  text-align: center;
+  margin-top: -2px;
+}
+
+.gallery {
+  display: flex;
+  width: 76%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  list-style: none;
+  width: 186px;
+  height: 156px;
+  text-align: center;
+  background-color: white;
+  border: 2px solid #f6adcd;
+  border-radius: 1.5rem;
+
+  margin-top: 80px;
+  padding: 14px 0px;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 12px 1px rgba(242, 60, 103, 0.3);
+}
+
+.donut-img {
+  height: 92px;
+  margin-top: -50px;
+  padding-bottom: 14px;
+
+  filter: drop-shadow(1px 1px 4px rgba(0, 0, 0, 0.4));
+}
+
+.donut-names {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 131%;
+
+  padding-bottom: 4px;
+}
+
+.donut-names-2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 141%;
+
+  padding-bottom: 41px;
+}
+
+#csr {
+  padding-bottom: 14px;
+}
+
+.donut-parenthesis {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 131%;
+
+  padding-bottom: 21px;
+}
+
+.flex-price {
+  display: flex;
+  width: 142px;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 21px;
+}
+
+.donut-price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+}
+
+/* START OF COFFEE PAGE */
+
+.flex-coffee {
+  width: 92%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+#mini-nav-2 {
+  padding-right: 20px;
+}
+
+.gallery-2 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-2 {
+  list-style: none;
+  width: 276px;
+  height: 554px;
+  background-color: #39251a;
+  color: white;
+
+  margin: 16px 0 0 0;
+  padding: 32px 0px 14px 24px;
+  border-radius: 30px;
+}
+
+.card-2:hover {
+  box-shadow: 0px 4px 14px 1px rgba(242, 60, 103, 0.4);
+}
+
+.coffee-names {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 190%;
+}
+
+.coffee-origin {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+
+  padding-bottom: 78px;
+}
+
+.coffee-process,
+.coffee-taste,
+.coffee-pairing,
+.coffee-certificates {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 158%;
+}
+
+span {
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.coffee-process {
+  padding-bottom: 24px;
+}
+
+.coffee-taste-container {
+  display: flex;
+}
+
+.coffee-taste {
+  padding-bottom: 28px;
+  padding-left: 26px;
+}
+
+.line {
+  padding-top: 10px;
+}
+
+.coffee-pairing {
+  width: 234px;
+  text-align: center;
+  border: 2px solid #fff;
+  padding: 15px 5px;
+  margin-bottom: 32px;
+}
+
+.coffee-price-container {
+  display: flex;
+  width: 247px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coffee-price {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 21px;
+}
+
+#coco-espresso {
+  background-color: #b06361;
+}
+
+#brazil {
+  padding-bottom: 99px;
+}
+
+#rwanda {
+  padding-bottom: 30px;
+}
+
+.coffee-certificates {
+  padding-bottom: 18px;
+}
+
+#coffee-pairing-3 {
+  padding: 28px 5px;
 }
