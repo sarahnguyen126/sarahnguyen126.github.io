@@ -27,14 +27,15 @@ h2 {
   border-top: 1px solid #f6adcd;
   padding-top: 90px;
   padding-bottom: 14px;
+  width: 96%;
 }
 
 h3 {
   font-family: "Noto Serif Display";
   font-style: normal;
-  font-weight: 600;
-  font-size: 21px;
-  line-height: 160%;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 148%;
 }
 
 h5 {
@@ -43,6 +44,17 @@ h5 {
   font-weight: 500;
   font-size: 18px;
   padding-bottom: 3rem;
+}
+
+span.lato-extrabold {
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+span#lato-pink {
+  font-weight: 700;
+  font-size: 16px;
+  color: #f6adcd;
 }
 
 nav {
@@ -106,7 +118,7 @@ main {
 }
 
 section {
-  padding-bottom: 94px;
+  padding-bottom: 90px;
 }
 
 .container {
@@ -239,14 +251,14 @@ p.page {
 /* START OF COFFEE PAGE */
 
 .flex-coffee {
-  width: 92%;
+  width: 91%;
   display: flex;
   justify-content: space-between;
   margin-left: 20px;
 }
 
 #mini-nav-2 {
-  padding-right: 20px;
+  padding-right: 16px;
 }
 
 .gallery-2 {
@@ -286,7 +298,7 @@ p.page {
   font-size: 14px;
   line-height: 150%;
 
-  padding-bottom: 78px;
+  padding-bottom: 90px;
 }
 
 .coffee-process,
@@ -297,16 +309,11 @@ p.page {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 158%;
-}
-
-span {
-  font-weight: 800;
-  letter-spacing: 0.04em;
+  line-height: 156%;
 }
 
 .coffee-process {
-  padding-bottom: 24px;
+  padding-bottom: 22px;
 }
 
 .coffee-taste-container {
@@ -327,12 +334,12 @@ span {
   text-align: center;
   border: 2px solid #fff;
   padding: 15px 5px;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 
 .coffee-price-container {
   display: flex;
-  width: 247px;
+  width: 248px;
   justify-content: space-between;
   align-items: center;
 }
@@ -349,17 +356,101 @@ span {
 }
 
 #brazil {
-  padding-bottom: 99px;
+  padding-bottom: 110px;
 }
 
 #rwanda {
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .coffee-certificates {
-  padding-bottom: 18px;
+  padding-bottom: 20px;
 }
 
 #coffee-pairing-3 {
   padding: 28px 5px;
+}
+
+.flex-coffee-description {
+  width: 80%;
+  margin: 60px 0 0 26px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#p-coffee {
+  width: 560px;
+  margin-top: 70px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 170%;
+}
+
+/* START OF LOCATIONS PAGE */
+
+.flex-locations {
+  display: flex;
+  margin: 50px 0 0 50px;
+}
+
+.location-img {
+  width: 520px;
+  height: 370px;
+  object-fit: cover;
+
+  margin-top: 104px;
+  margin-right: 50px;
+}
+
+.location-names-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-numbers {
+  font-family: "Noto Serif Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  border: 1px solid #000;
+  border-radius: 50px;
+
+  margin-right: 26px;
+  padding: 9px 19px;
+}
+
+.location-names {
+  font-family: "Noto Serif Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 29px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+}
+
+.location-info-container {
+  margin: 0 0 0 26px;
+  padding: 40px 0 0 55px;
+  border-left: 1.5px solid #f6adcd;
+}
+
+.location-info {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 165%;
+
+  margin-bottom: 30px;
+}
+
+.location-meeting-times {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 180%;
 }
