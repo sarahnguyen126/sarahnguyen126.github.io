@@ -19,13 +19,13 @@ h2 {
   font-family: "Noto Serif Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 52px;
   text-align: center;
   letter-spacing: 0.015em;
 
   border-top: 1px solid #f6adcd;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 14px;
   width: 96%;
 }
@@ -132,6 +132,13 @@ section {
 }
 
 /* START OF DONUT PAGE */
+
+#donuts-scroll {
+  width: 600px;
+  height: 600px;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
 
 .flex-donuts {
   display: flex;
@@ -414,19 +421,19 @@ p.page {
   font-family: "Noto Serif Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 22px;
   border: 1px solid #000;
   border-radius: 50px;
 
   margin-right: 26px;
-  padding: 9px 19px;
+  padding: 8px 18px;
 }
 
 .location-names {
   font-family: "Noto Serif Display";
   font-style: normal;
   font-weight: 800;
-  font-size: 29px;
+  font-size: 28px;
   line-height: 38px;
   letter-spacing: 0.02em;
 }
@@ -453,4 +460,57 @@ p.page {
   font-weight: 400;
   font-size: 19px;
   line-height: 180%;
+}
+
+/* START OF CONTACT PAGE */
+
+.contact-container {
+  width: 94%;
+  text-align: center;
+}
+
+h3.contact {
+  margin-top: 30px;
+  padding-bottom: 40px;
+font-size: 24px;
+}
+
+input[type="text"],
+textarea {
+  width: 50%;
+  padding: 14px;
+  border: 1px solid #f6adcd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+input[type="text"] {
+  color: cadetblue;
+}
+
+input[type="submit"] {
+  background-color: #f6adcd;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+}
+
+input[type="submit"]:hover {
+  background-color: #da83b0;
 }
