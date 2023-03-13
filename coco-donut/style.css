@@ -94,12 +94,17 @@ nav ul li a {
     1px 1px 0 #f6adcd;
   border-bottom: 1.3px solid #f6adcd;
 }
-nav ul li a.current {
-  background: black;
+nav li:focus {
+  background-color: #f6adcd;
+  font-weight: 1000;
 }
 
 nav ul li a:hover {
   color: white;
+}
+
+.current {
+  background-color: #f6adcd;
 }
 
 #home {
@@ -111,10 +116,6 @@ nav ul li a:hover {
   left: 206px;
   position: fixed;
   z-index: 1;
-}
-
-.insta-icon:hover {
-  box-shadow: 0px 4px 12px 1px rgba(242, 60, 103, 0.3);
 }
 
 /* START OF HOMEPAGE */
