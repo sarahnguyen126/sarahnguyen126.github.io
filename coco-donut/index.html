@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
     <title>Coco Donuts</title>
     <link rel="stylesheet" href="style.css" />
     <style>
@@ -12,17 +18,19 @@
   </head>
   <body>
     <nav>
-      <img
-        src="images/coco-donut-logo.png"
-        alt="coco-donut-logo"
-        width="150px"
-      />
-      <ul class="secondNav">
-        <li class="nav-item" id="home"><a href="#home-page">HOME</a></li>
-        <li class="nav-item"><a href="#donuts-page">DONUTS</a></li>
-        <li class="nav-item"><a href="#coffee-page">COFFEE</a></li>
-        <li class="nav-item"><a href="#locations-page">LOCATIONS</a></li>
-        <li class="nav-item"><a href="#contact-page">CONTACT</a></li>
+      <a href="index.html">
+        <img
+          src="images/coco-donut-logo.png"
+          alt="coco-donut-logo"
+          width="150px"
+        />
+      </a>
+      <ul>
+        <li id="home"><a href="#home-page">HOME</a></li>
+        <li><a href="#donuts-page">DONUTS</a></li>
+        <li><a href="#coffee-page">COFFEE</a></li>
+        <li><a href="#locations-page">LOCATIONS</a></li>
+        <li><a href="#contact-page">CONTACT</a></li>
       </ul>
 
       <svg
@@ -153,7 +161,6 @@
               id="homepage-img"
               src="images/donuts/homepage-img.png"
               alt=""
-              width="550px"
             />
           </div>
         </div>
@@ -742,7 +749,7 @@
               <div>
                 <p class="coffee-names">Coco Blend</p>
                 <p class="coffee-origin">
-                  CENTRAL/ <br />
+                  CENTRAL / <br />
                   SOUTH AMERICA
                 </p>
                 <p class="coffee-process">
@@ -1280,11 +1287,11 @@
           </form>
         </div>
       </section>
+      <footer>
+        <p>© 2023</p>
+      </footer>
     </main>
-    <script
-      src="https://code.jquery.com/jquery-3.6.1.min.js"
-      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-      crossorigin="anonymous"
-    ></script>
+
+
   </body>
 </html>

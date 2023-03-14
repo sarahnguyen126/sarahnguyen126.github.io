@@ -3,6 +3,10 @@
   margin: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
   font-family: "Noto Serif Display";
   font-style: normal;
@@ -71,7 +75,7 @@ nav {
 nav ul {
   list-style: none;
   margin: 0;
-  padding: 45px 0px 164px 0px;
+  padding: 45px 0px 154px 0px;
 
   font-family: "Lato";
   font-style: normal;
@@ -93,6 +97,8 @@ nav ul li a {
   text-shadow: -1px -1px 0 #f6adcd, 1px -1px 0 #f6adcd, -1px 1px 0 #f6adcd,
     1px 1px 0 #f6adcd;
   border-bottom: 1.3px solid #f6adcd;
+
+  transition: all 100ms ease-in-out;
 }
 nav li:focus {
   background-color: #f6adcd;
@@ -105,6 +111,7 @@ nav ul li a:hover {
 
 .current {
   background-color: #f6adcd;
+  font-weight: 1000;
 }
 
 #home {
@@ -125,7 +132,7 @@ main {
 }
 
 section {
-  padding-bottom: 90px;
+  padding-bottom: 100px;
 }
 
 .container {
@@ -136,6 +143,7 @@ section {
 #homepage-img {
   margin-top: -40px;
   margin-left: 60px;
+  width: 80%;
 }
 
 /* START OF DONUT PAGE */
@@ -425,7 +433,7 @@ p.page {
 
 .flex-locations {
   display: flex;
-  margin: 50px 0 0 50px;
+  margin: 60px 0 0 50px;
 }
 
 .location-img {
@@ -434,7 +442,7 @@ p.page {
   object-fit: cover;
   filter: drop-shadow(0px 4px 8px rgba(218, 131, 176, 0.55));
 
-  margin-top: 104px;
+  margin-top: 90px;
   margin-right: 50px;
 }
 
@@ -466,7 +474,7 @@ p.page {
 
 .location-info-container {
   margin: 0 0 0 26px;
-  padding: 40px 0 0 55px;
+  padding: 30px 0 0 55px;
   border-left: 1.5px solid #f6adcd;
 }
 
@@ -519,7 +527,7 @@ textarea {
 }
 
 input[type="text"] {
-  color: cadetblue;
+  color: #da83b0;
 }
 
 input[type="submit"] {
@@ -533,10 +541,36 @@ input[type="submit"] {
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.02em;
 }
 
 input[type="submit"]:hover {
   background-color: #da83b0;
+}
+
+footer {
+  width: 92%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  text-align: right;
+  color: grey ;
+  border-top: solid 1px rgb(198, 198, 198);
+  padding: 22px 0 60px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+  h1 {
+    font-family: "Noto Serif Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 58px;
+    line-height: 119%;
+  }
 }
