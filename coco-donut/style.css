@@ -563,24 +563,22 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column-reverse;
-  }
-  #homepage-img {
-    margin-bottom: 2.8rem;
-  }
   h1 {
-    font-size: 58px;
-    border-bottom: 2px solid #f6adcd;
+    font-size: 64px;
+    border-bottom: 2.5px solid #f6adcd;
+    width: 80%;
   }
-
+  h2 {
+    font-size: 34px;
+  }
+  h3 {
+    font-size: 22px;
+  }
   h5 {
     font-size: 17px;
     padding-bottom: 0.6rem;
   }
-  h3 {
-    font-size: 20px;
-  }
+
 
   /* START OF NAV */
   nav {
@@ -592,6 +590,19 @@ footer {
 
   /* START OF HOMEPAGE */
 main {
-  margin-left: 10%;
+  margin-left: 6%;
 }
+
+.container {
+  flex-direction: column-reverse;
+  padding-top: 80px;
+  padding-left: 30px;
+}
+
+#homepage-img {
+  margin: 0px 0 64px 0;
+  width: 460px;
+}
+
+/* START OF DONUT PAGE */
 }
