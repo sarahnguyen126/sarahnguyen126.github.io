@@ -623,4 +623,16 @@ svg.shopping-cart {
   border-right: 2px solid #000;
 }
 
+
+/* START OF LOCATION PAGE */
+.flex-locations {
+  flex-direction: column;
+  margin: 0 0 0px 10px;
+}
+
+.location-img {
+  width: 92%;
+  padding-bottom: 40px;
+}
+
 }
