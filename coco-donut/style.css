@@ -570,6 +570,7 @@ footer {
   }
   h2 {
     font-size: 34px;
+    line-height: 46px;
   }
   h3 {
     font-size: 22px;
@@ -601,20 +602,27 @@ main {
 
 #homepage-img {
   margin: 0px 0 64px 0;
-  width: 460px;
+  width: 450px;
 }
 
 /* START OF DONUT PAGE */
 
+.donuts-scroll {
+  width: 95%;
+}
+
 .flex-donuts {
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
 }
+
 .mini-nav {
   flex-direction: row;
   align-items: center;
   width: 184px;
+  height: 20px;
   margin: 0px 20px 0 0;
+  align-self: flex-end;
 }
 
 svg.shopping-cart {
@@ -624,15 +632,32 @@ svg.shopping-cart {
 }
 
 
+/* START OF COFFEE PAGE */
+.flex-coffee {
+  width: 97%;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: -20px;
+}
+
+#mini-nav-2 {
+  padding-right: 2px;
+  margin-right: 0px;
+}
+
+#coffee-scroller {
+  width: 95%;
+}
+
 /* START OF LOCATION PAGE */
 .flex-locations {
   flex-direction: column;
   margin: 0 0 0px 10px;
+  align-items: flex-start;
 }
 
 .location-img {
   width: 92%;
   padding-bottom: 40px;
 }
-
 }
