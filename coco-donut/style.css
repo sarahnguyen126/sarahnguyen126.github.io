@@ -557,7 +557,7 @@ footer {
   font-size: 16px;
 
   text-align: right;
-  color: grey ;
+  color: grey;
   border-top: solid 1px rgb(198, 198, 198);
   padding: 22px 0 60px 0;
 }
@@ -566,11 +566,32 @@ footer {
   .container {
     flex-direction: column-reverse;
   }
-  h1 {
-    font-family: "Noto Serif Display";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 58px;
-    line-height: 119%;
+  #homepage-img {
+    margin-bottom: 2.8rem;
   }
+  h1 {
+    font-size: 58px;
+    border-bottom: 2px solid #f6adcd;
+  }
+
+  h5 {
+    font-size: 17px;
+    padding-bottom: 0.6rem;
+  }
+  h3 {
+    font-size: 20px;
+  }
+
+  /* START OF NAV */
+  nav {
+    display: none;
+  }
+  .nav-border-right {
+    display: none;
+  }
+
+  /* START OF HOMEPAGE */
+main {
+  margin-left: 10%;
+}
 }
