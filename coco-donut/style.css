@@ -605,4 +605,22 @@ main {
 }
 
 /* START OF DONUT PAGE */
+
+.flex-donuts {
+  flex-direction: column;
+  align-items: flex-end;
+}
+.mini-nav {
+  flex-direction: row;
+  align-items: center;
+  width: 184px;
+  margin: 0px 20px 0 0;
+}
+
+svg.shopping-cart {
+  padding: 0 26px 0 0;
+  border-bottom: none;
+  border-right: 2px solid #000;
+}
+
 }
