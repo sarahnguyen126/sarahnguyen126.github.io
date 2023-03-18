@@ -13,9 +13,6 @@ h1 {
   font-weight: 600;
   font-size: 78px;
   line-height: 119%;
-
-  border-bottom: 3px solid #f6adcd;
-  padding-bottom: 1.3rem;
   margin-bottom: 1.8rem;
 }
 
@@ -40,6 +37,9 @@ h3 {
   font-weight: 700;
   font-size: 22px;
   line-height: 148%;
+
+  border-top: 3px solid #f6adcd;
+  padding-top: 30px;
 }
 
 h5 {
@@ -138,6 +138,16 @@ section {
 .container {
   padding-top: 140px;
   display: flex;
+}
+
+.h1-box {
+  display: flex;
+}
+
+.pink-arrow {
+  padding: 32px 0 0 18px;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 #homepage-img {
@@ -418,6 +428,10 @@ p.page {
   justify-content: space-between;
 }
 
+#h3-coffee {
+  border: none;
+}
+
 #p-coffee {
   width: 560px;
   margin-top: 70px;
@@ -434,6 +448,7 @@ p.page {
 .flex-locations {
   display: flex;
   margin: 60px 0 0 50px;
+  padding: 0 0 20px 0;
 }
 
 .location-img {
@@ -460,7 +475,7 @@ p.page {
   border-radius: 50px;
 
   margin-right: 26px;
-  padding: 8px 18px;
+  padding: 8px 16px;
 }
 
 .location-names {
@@ -473,8 +488,8 @@ p.page {
 }
 
 .location-info-container {
-  margin: 0 0 0 26px;
-  padding: 30px 0 0 55px;
+  margin: 0 0 0 23px;
+  padding: 30px 0 0 50px;
   border-left: 1.5px solid #f6adcd;
 }
 
@@ -509,6 +524,7 @@ h3.contact {
   margin: auto;
   padding: 40px 0 40px 0;
   font-size: 24px;
+  border: none;
 }
 
 input[type="text"],
