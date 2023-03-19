@@ -800,6 +800,10 @@ footer {
 
   /* START OF CONTACT PAGE */
 
+  .contact-container {
+    width: 94vw;
+  }
+
   h3.contact {
     width: 82vw;
     font-size: 20px;
