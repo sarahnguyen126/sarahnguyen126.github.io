@@ -658,6 +658,7 @@ footer {
   h2 {
     font-size: 34px;
     line-height: 46px;
+    padding-top: 50px;
   }
   h3 {
     font-size: 22px;
@@ -764,7 +765,7 @@ footer {
   /* START OF LOCATION PAGE */
   .flex-locations {
     flex-direction: column;
-    margin: 0 0 50px 10px;
+    margin: 0 0 40px 10px;
     align-items: flex-start;
   }
 
@@ -809,11 +810,12 @@ footer {
     width: 84vw;
     font-size: 20px;
     margin-top: -90px;
+    line-height: 148%;
   }
 
   input[type="text"],
   textarea {
-    width: 80vw;
+    width: 84vw;
     font-size: 15px;
   }
 }
