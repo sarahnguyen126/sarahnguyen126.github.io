@@ -36,7 +36,7 @@ h3 {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 160%;
+  line-height: 155%;
 }
 
 h5 {
@@ -697,8 +697,9 @@ footer {
   }
 
   .homepage-h3 {
-    width: 80vw;
+    width: 86vw;
     padding-right: 0;
+    font-size: 22px;
   }
 
   #homepage-img {
@@ -801,6 +802,7 @@ footer {
 
   .contact-container {
     width: 94vw;
+    margin-left: -20px ;
   }
 
   h3.contact {
@@ -811,7 +813,7 @@ footer {
 
   input[type="text"],
   textarea {
-    width: 90%;
+    width: 86vw;
     font-size: 15px;
   }
 }
