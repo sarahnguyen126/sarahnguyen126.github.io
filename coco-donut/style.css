@@ -654,7 +654,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 64px;
+    font-size: 13vw;
     width: 80vw;
   }
   h2 {
@@ -705,7 +705,7 @@ footer {
 
   #homepage-img {
     margin: 0px 0 64px -20px;
-    width: 80vw;
+    width: 90vw;
     height: auto;
   }
 
