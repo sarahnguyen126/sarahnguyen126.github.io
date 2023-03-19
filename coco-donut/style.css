@@ -103,8 +103,8 @@ span#lato-pink {
   font-size: 15px;
   letter-spacing: 0.1em;
 
-  padding-top: 40px;
-  padding-bottom: 0.5rem;
+  padding-top: 44px;
+  padding-bottom: 0.6rem;
   color: #000;
 }
 
@@ -654,9 +654,8 @@ footer {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 60px;
-    border-bottom: 2.5px solid #f6adcd;
-    width: 80%;
+    font-size: 64px;
+    width: 80vw;
   }
   h2 {
     font-size: 30px;
@@ -689,9 +688,18 @@ footer {
     padding-left: 30px;
   }
 
+  .pink-arrow {
+    display: none;
+  }
+
+  .homepage-h3 {
+    width: 80vw;
+  }
+
   #homepage-img {
     margin: 0px 0 64px -20px;
-    width: 410px;
+    width: 80vw;
+    height: auto;
   }
 
   /* START OF DONUT PAGE */
