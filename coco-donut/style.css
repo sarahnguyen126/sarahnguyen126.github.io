@@ -802,18 +802,18 @@ footer {
 
   .contact-container {
     width: 94vw;
-    margin-left: 0px ;
+    margin-left: -14px ;
   }
 
   h3.contact {
-    width: 100vw;
+    width: 90vw;
     font-size: 20px;
     margin-top: -90px;
   }
 
   input[type="text"],
   textarea {
-    width: 100vw;
+    width: 90vw;
     font-size: 15px;
   }
 }
