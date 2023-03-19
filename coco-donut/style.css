@@ -35,18 +35,15 @@ h3 {
   font-family: "Noto Serif Display";
   font-style: normal;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 148%;
-
-  border-top: 3px solid #f6adcd;
-  padding-top: 30px;
+  font-size: 24px;
+  line-height: 160%;
 }
 
 h5 {
   font-family: "Lato";
   font-style: normal;
   font-weight: 500;
-  font-size: 19px;
+  font-size: 18px;
   padding-bottom: 2.8rem;
 }
 
@@ -220,6 +217,12 @@ section {
   padding: 32px 0 0 18px;
   animation-duration: 3.5s;
   animation-iteration-count: infinite;
+}
+
+.homepage-h3 {
+  border-top: 3px solid #f6adcd;
+  padding: 30px 120px 0 0;
+
 }
 
 #homepage-img {
@@ -500,10 +503,6 @@ p.page {
   justify-content: space-between;
 }
 
-#h3-coffee {
-  border: none;
-}
-
 #p-coffee {
   width: 560px;
   margin-top: 70px;
@@ -596,7 +595,6 @@ h3.contact {
   margin: auto;
   padding: 40px 0 40px 0;
   font-size: 24px;
-  border: none;
 }
 
 input[type="text"],
@@ -659,14 +657,14 @@ footer {
   }
   h2 {
     font-size: 34px;
-    line-height: 40px;
+    line-height: 46px;
   }
   h3 {
     font-size: 22px;
   }
   h5 {
     font-size: 17px;
-    padding-bottom: 0.8rem;
+    padding-bottom: 1.1rem;
   }
 
   /* START OF LOADING */
@@ -700,6 +698,7 @@ footer {
 
   .homepage-h3 {
     width: 80vw;
+    padding-right: 0;
   }
 
   #homepage-img {
