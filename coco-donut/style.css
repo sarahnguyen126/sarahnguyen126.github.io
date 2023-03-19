@@ -654,7 +654,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 13vw;
+    font-size: 14vw;
     width: 80vw;
   }
   h2 {
@@ -692,7 +692,6 @@ footer {
   .container {
     flex-direction: column-reverse;
     padding-top: 80px;
-    padding-left: 30px;
   }
 
   .pink-arrow {
@@ -704,7 +703,7 @@ footer {
   }
 
   #homepage-img {
-    margin: 0px 0 64px -20px;
+    margin: 0px 0 64px 0px;
     width: 90vw;
     height: auto;
   }
