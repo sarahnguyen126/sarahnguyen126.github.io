@@ -658,7 +658,7 @@ footer {
   h2 {
     font-size: 34px;
     line-height: 46px;
-    padding-top: 50px;
+    padding-top: 40px;
   }
   h3 {
     font-size: 22px;
@@ -669,6 +669,14 @@ footer {
   }
 
   /* START OF LOADING */
+
+.welcome {
+  padding-bottom: 0.5rem;
+}
+
+  .welcome-2 {
+    font-size: 46px;
+  }
 
   .loading-bg {
     height: 100vh;
@@ -765,7 +773,7 @@ footer {
   /* START OF LOCATION PAGE */
   .flex-locations {
     flex-direction: column;
-    margin: 0 0 40px 10px;
+    margin: 0 0 30px 10px;
     align-items: flex-start;
   }
 
