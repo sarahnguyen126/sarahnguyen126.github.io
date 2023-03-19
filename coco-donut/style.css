@@ -669,6 +669,13 @@ footer {
     padding-bottom: 0.8rem;
   }
 
+  /* START OF LOADING */
+
+  .loading-bg {
+    height: 100vh;
+    width: auto;
+  }
+
   /* START OF NAV */
   nav {
     display: none;
