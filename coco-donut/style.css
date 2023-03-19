@@ -591,7 +591,7 @@ p.page {
 }
 
 h3.contact {
-  width: 600px;
+  width: 82vw;
   text-align: center;
   margin: auto;
   padding: 40px 0 40px 0;
@@ -803,7 +803,7 @@ footer {
   h3.contact {
     width: 82vw;
     font-size: 20px;
-    margin-top: -50px;
+    margin-top: -90px;
   }
 
   input[type="text"],
