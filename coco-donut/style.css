@@ -806,14 +806,14 @@ footer {
   }
 
   h3.contact {
-    width: 90vw;
+    width: 84vw;
     font-size: 20px;
     margin-top: -90px;
   }
 
   input[type="text"],
   textarea {
-    width: 90vw;
+    width: 80vw;
     font-size: 15px;
   }
 }
