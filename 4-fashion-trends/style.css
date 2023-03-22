@@ -681,3 +681,7 @@ h5 {
 #cut-out-collage-04:hover + #cut-out-collage-05 {
   translate: -120px;
 }
+
+.not-to-display {
+  display: none;
+}
