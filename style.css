@@ -8,14 +8,21 @@ h1 {
 .date {
   font-weight: bolder;
   font-size: 20px;
+  border-top: 1.5px dashed black;
+  padding-top: 40px;
+  width: 800px;
 }
 
 p {
   margin-left: 100px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  width: 600px;
+  width: 650px;
   line-height: 1.5;
   font-size: 18px;
+}
+
+.last {
+  padding-bottom: 20px;
 }
 
 img {
